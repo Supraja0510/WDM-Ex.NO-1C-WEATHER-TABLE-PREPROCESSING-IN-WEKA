@@ -12,7 +12,8 @@ Procedure:
 1)	Open Start  Programs  Accessories  Notepad
 2)	Type the following training data set with the help of Notepad for Weather Table.
 
-```@relation weather
+```
+@relation weather
 @attribute outlook {sunny,rainy,overcast} 
 @attribute temparature numeric 
 @attribute humidity numeric
@@ -30,6 +31,7 @@ overcast,64.0,65.0,false,yes
 sunny,72.0,95.0,true,no 
 sunny,69.0,70.0,false,yes 
 rainy,75.0,80.0,false,yes
+```
 3)	After that the file is saved with .arff file format.
 4)	Minimize the arff file and then open Start  Programs  weka-3-4.
 5)	Click on weka-3-4, then Weka dialog box is displayed on the screen.
