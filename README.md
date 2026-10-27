@@ -40,7 +40,8 @@ rainy,75.0,80.0,false,yes
 8)	Click on edit button which shows weather table on weka.
  
 Training Data Set  Employee Table
-<img width="735" height="786" alt="image" src="https://github.com/user-attachments/assets/9c0dd364-f03c-4215-959c-7ca5b3589abf" />
+<img width="1227" height="737" alt="image" src="https://github.com/user-attachments/assets/3d5b0650-a8fa-411b-bad3-81756770da4f" />
+
 
 
 Add  Pre-Processing Technique:
