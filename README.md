@@ -1,19 +1,19 @@
 # WDM-Ex.NO-1C-WEATHER-TABLE-PREPROCESSING-IN-WEKA
-Aim:
+## Name: Supraja B
+## Reg.no: 2305002026
+## Aim:
 To apply Pre-Processing techniques to the training data set of Weather Table.
-Description:
+## Description:
 Real world databases are highly influenced to noise, missing and inconsistency due to their queue size so the data can be pre-processed to improve the quality of data and missing results and it also improves the efficiency.
 There are 3 pre-processing techniques they are:
 1)	Add
 2)	Remove
 3)	Normalization
-Creation of Weather Table:
-Procedure:
+## Procedure:
 1)	Open Start  Programs  Accessories  Notepad
 2)	Type the following training data set with the help of Notepad for Weather Table.
 
-```
-@relation weather
+```@relation weather
 @attribute outlook {sunny,rainy,overcast} 
 @attribute temparature numeric 
 @attribute humidity numeric
@@ -40,11 +40,9 @@ rainy,75.0,80.0,false,yes
 8)	Click on edit button which shows weather table on weka.
  
 Training Data Set  Employee Table
-<img width="1227" height="737" alt="image" src="https://github.com/user-attachments/assets/3d5b0650-a8fa-411b-bad3-81756770da4f" />
+<img width="735" height="786" alt="image" src="https://github.com/user-attachments/assets/9c0dd364-f03c-4215-959c-7ca5b3589abf" />
 
-
-
-Add  Pre-Processing Technique:
+## Add Pre-Processing Technique:
 Procedure:
 1)	Start  Programs  Weka-3-4  Weka-3-4
 2)	Click on explorer.
@@ -61,11 +59,9 @@ Procedure:
 13)	Save the file.
 14)	Click on the Edit button, it shows a new Weather Table on Weka.
  
-Weather Table after adding new attribute CLIMATE:
-<img width="743" height="798" alt="image" src="https://github.com/user-attachments/assets/cb228082-7f65-4656-8f7a-19d2532ad596" />
-
- 
-Remove  Pre-Processing Technique:
+## Weather Table after adding new attribute CLIMATE:
+<img width="997" height="603" alt="image" src="https://github.com/user-attachments/assets/c6e10136-bce7-4296-8ee9-7682eb70cb92" />
+## Remove Pre-Processing Technique:
 Procedure:
 1)	Start  Programs  Weka-3-4  Weka-3-4
 2)	Click on explorer.
@@ -79,10 +75,10 @@ Procedure:
 10)	Click Remove button and then Save.
 11)	Click on the Edit button, it shows a new Weather Table on Weka.
  
-Weather Table after removing attributes WINDY, PLAY:
-<img width="732" height="787" alt="image" src="https://github.com/user-attachments/assets/bb3297fa-85a7-44aa-8812-5f0d16ff0e59" />
+## Weather Table after removing attributes WINDY, PLAY:
+<img width="1046" height="510" alt="image" src="https://github.com/user-attachments/assets/1d80041b-8dbf-408d-b538-5abb9968294e" />
 
-Normalize  Pre-Processing Technique:
+## Normalize Pre-Processing Technique:
 Procedure:
 1)	Start  Programs  Weka-3-4  Weka-3-4
 2)	Click on explorer.
@@ -96,53 +92,10 @@ Procedure:
 10)	Click on Apply button and then Save.
 11)	Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
  
-Weather Table after Normalizing TEMPARATURE, HUMIDITY:
-<img width="733" height="786" alt="image" src="https://github.com/user-attachments/assets/7160dfeb-d2dd-4550-8907-1cd3505dc2d0" />
+## Weather Table after Normalizing TEMPARATURE, HUMIDITY:
+<img width="1047" height="375" alt="image" src="https://github.com/user-attachments/assets/72a7f3ae-cadd-4154-80e2-4d120f659af4" />
 
- 
-Output:
-Adding Climate as an attribute to the table
-
-<img width="941" height="568" alt="image" src="https://github.com/user-attachments/assets/1b24a184-a93e-40e8-befd-a8e574eaac4e" />
-
-Removing windy and play attributes from the table.
-<img width="923" height="558" alt="image" src="https://github.com/user-attachments/assets/2d9b736d-28cc-4806-b44a-ac0b1c74b304" />
-
- 
-Normalization of attributes
-
-
-<img width="941" height="568" alt="image" src="https://github.com/user-attachments/assets/4bba5a69-75fc-4f9a-a359-14a2c8025c70" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Result:
+ ## Result:
 Thus this program has been successfully executed.
 
 
